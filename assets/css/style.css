@@ -41,7 +41,7 @@ main {
   width: 97%;
   height: 20%;
   margin: 5px auto 0;
-  background-image: url(assets/img/background.png);
+  background-image: url('/assets/img/background.png');
   border-radius: 10px 10px 0 0;
 }
 
