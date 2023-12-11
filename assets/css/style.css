@@ -1,0 +1,239 @@
+@font-face {
+  font-family: 'gg sans';
+  src: url('../fonts/ggsansregular.woff2') format('woff2');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  font-family: 'gg sans', sans-serif;
+  background-color: #0f0f0f;
+  color: rgba(255, 255, 255, 1);
+}
+
+main {
+  width: 375px;
+  height: 760px;
+  background-image: linear-gradient(to bottom, #7F00FF, #E100FF);
+  margin: 10vh auto;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-shadow: 
+  inset 3px 3px 2px 2px rgba(255, 255, 255, 0.2),
+  inset -3px -3px 2px 2px rgba(255, 255, 255, 0.2),
+  inset -3px 3px 2px 2px rgba(255, 255, 255, 0.2),
+  inset 3px -3px 2px 2px rgba(255, 255, 255, 0.2);
+}
+
+.banners {
+  width: 97%;
+  height: 20%;
+  margin: 5px auto 0;
+  background-image: url(/assets/img/background.png);
+  border-radius: 10px 10px 0 0;
+}
+
+.container {
+  width: 97%;
+  height: 80%;
+  margin: 0 auto 5px;
+  background-image: linear-gradient(to bottom, #7F00FF, #E100FF);
+  border-radius:  0 0 10px 10px;
+}
+
+.profile {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: -60px 0 0 20px;
+  border: 5px solid #7F00FF;
+}
+
+.status {
+  position: absolute;
+  margin: 10px 0 0 90px;
+  width: 30px;
+  height: 30px;
+  background: #23A559;
+  border-radius: 30px;
+  border: 5px solid #7F00FF;
+}
+
+.badges {
+  width: 60px;
+  height: 30px;
+  background: rgba(0, 0, 0, .5);
+  position: absolute;
+  right: 25px;
+  margin: 15px 0 0 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.badges img {
+  height: 20px;
+}
+
+.description {
+  margin: 17% 20px;
+  height: 87%;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, .5);  
+}
+
+.name-profile {
+  padding: 18px 12px 0;
+}
+
+.name-profile h1 {
+  font-size: 22px;
+  padding-bottom: 2px;
+}
+
+.name-profile h2 {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  padding-bottom: 4px;
+}
+
+.name-profile .pronouns-name {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+  padding-bottom: 10px;
+}
+
+.name-profile .status-name {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  padding-bottom: 10px;
+}
+
+.name-profile .status-name img {
+  height: 16px;
+}
+
+.desc-lines {
+  height: 1px;
+  margin: 0 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.about-me h2 {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 0 0 12px;
+}
+
+.about-me p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, .8);
+  padding: 10px 12px 0 12px;
+}
+
+.about-me p img {
+  height: 16px;
+}
+
+.member-since h2 {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 0px 4px 12px;
+}
+
+.member-container {
+  height: 24px;
+  margin-left: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.member-container img {
+  height: 16px;
+  margin: 4px 8px 0 2px;
+}
+
+.member-container p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, .8);
+}
+
+/* clear */
+
+.activity-user h2 {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 0 0 12px;
+}
+
+.vscode-main {
+  display: flex;
+  flex-direction: row;
+  padding: 8px 0px 4px 12px;
+}
+
+.vscode-main .vscode-head {
+  height: 75px;
+  width: 75px;
+  position: relative;
+  margin-right: 10px;
+}
+
+.vscode-head img:first-child {
+  height: 70px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.vscode-head .vscode-logo {
+  width: 20px;
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  background-color: #60007F;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.vscode-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.vscode-desc h3 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.vscode-desc p {
+  font-size: 14px;
+}
+
+.notes-user h2 {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 0 0 12px;
+}
+
+.notes-user p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, .5);
+  padding: 10px 0 0 12px;
+}
