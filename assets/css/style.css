@@ -106,19 +106,16 @@ main {
 }
 
 .name-profile h2 {
-  font-size: 14px;
   color: rgba(255, 255, 255, 0.8);
   padding-bottom: 4px;
 }
 
 .name-profile .pronouns-name {
-  font-size: 12px;
   color: rgba(255, 255, 255, 0.8);
   padding-bottom: 10px;
 }
 
 .name-profile .status-name {
-  font-size: 14px;
   color: rgba(255, 255, 255, 0.8);
   padding-bottom: 10px;
 }
@@ -133,14 +130,7 @@ main {
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.about-me h2 {
-  font-size: 12px;
-  font-weight: bold;
-  padding: 10px 0 0 12px;
-}
-
 .about-me p {
-  font-size: 14px;
   color: rgba(255, 255, 255, .8);
   padding: 10px 12px 0 12px;
 }
@@ -150,8 +140,6 @@ main {
 }
 
 .member-since h2 {
-  font-size: 12px;
-  font-weight: bold;
   padding: 10px 0px 4px 12px;
 }
 
@@ -169,16 +157,7 @@ main {
 }
 
 .member-container p {
-  font-size: 14px;
   color: rgba(255, 255, 255, .8);
-}
-
-/* clear */
-
-.activity-user h2 {
-  font-size: 12px;
-  font-weight: bold;
-  padding: 10px 0 0 12px;
 }
 
 .vscode-main {
@@ -217,23 +196,22 @@ main {
   justify-content: space-evenly;
 }
 
-.vscode-desc h3 {
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.vscode-desc p {
-  font-size: 14px;
-}
-
-.notes-user h2 {
-  font-size: 12px;
-  font-weight: bold;
-  padding: 10px 0 0 12px;
-}
-
 .notes-user p {
-  font-size: 14px;
   color: rgba(255, 255, 255, .5);
+}
+
+.pad-112 {
   padding: 10px 0 0 12px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fw-b {
+  font-weight: bold;
 }
